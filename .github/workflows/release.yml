@@ -19,8 +19,6 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: Build package
         run: yarn build
-        env:
-          BUNDLEWATCH_GITHUB_TOKEN: ${{ secrets.BUNDLEWATCH_GITHUB_TOKEN }}
       - name: Release package
         run: npx semantic-release
         env:
