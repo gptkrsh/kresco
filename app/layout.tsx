@@ -1,18 +1,48 @@
-import './globals.css'
+import * as NavigationMenu from "@/components/NavigationMenu";
+import { className } from "@/styles/nextFonts";
+import "@/styles/tailwind.css";
+import Link from "next/link";
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
+    <html lang="en" className={className}>
       <head />
-      <body>{children}</body>
+      <body>
+        <NavigationMenu.Root>
+          <NavigationMenu.Item>
+            <Link href="/">Kresco</Link>
+          </NavigationMenu.Item>
+          <NavigationMenu.List>
+            <NavigationMenu.Item>
+              <NavigationMenu.Trigger>Docs</NavigationMenu.Trigger>
+              <NavigationMenu.Content direction="bottom-right">
+                <ul>
+                  <NavigationMenu.Item>
+                    <NavigationMenu.Link href="/docs/getting-started">
+                      Getting Started
+                    </NavigationMenu.Link>
+                  </NavigationMenu.Item>
+                  <NavigationMenu.Item>
+                    <NavigationMenu.Link href="/docs/nextjs">
+                      Next.js
+                    </NavigationMenu.Link>
+                  </NavigationMenu.Item>
+                  <NavigationMenu.Item>
+                    <NavigationMenu.Link href="/docs/tailwindcss">
+                      Tailwind CSS
+                    </NavigationMenu.Link>
+                  </NavigationMenu.Item>
+                </ul>
+              </NavigationMenu.Content>
+            </NavigationMenu.Item>
+          </NavigationMenu.List>
+        </NavigationMenu.Root>
+        {children}
+      </body>
     </html>
-  )
+  );
 }

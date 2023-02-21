@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply prose prose-slate max-w-none dark:prose-invert;
+  @apply bg-slate-1 dark:bg-slateDark-1;
+  @apply prose-headings:my-0;
+  @apply prose-a:no-underline;
+}
