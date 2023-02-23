@@ -2,8 +2,6 @@
   "compilerOptions": {
     "alwaysStrict": true,
     "jsx": "preserve",
-    "rootDir": "./src",
-    "outDir": "./dist",
     "module": "esnext",
     "moduleResolution": "node",
     "target": "es5",
