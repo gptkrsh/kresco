@@ -1,7 +1,8 @@
-import * as NavigationMenu from "@/components/NavigationMenu";
-import { className } from "@/styles/nextFonts";
-import "@/styles/tailwind.css";
+/* eslint-disable @next/next/no-head-element */
+import * as React from "react";
 import Link from "next/link";
+import * as NavigationMenu from "../components/NavigationMenu";
+import { className } from "../util/nextFonts";
 
 export default function RootLayout({
   children,

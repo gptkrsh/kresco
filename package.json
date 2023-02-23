@@ -1,12 +1,10 @@
 {
   "name": "kresco",
   "version": "0.0.0",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "license": "MIT",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
+    "build": "tsc",
     "release": "semantic-release"
   },
   "dependencies": {
