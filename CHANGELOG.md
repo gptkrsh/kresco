@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/krshkun/kresco/compare/v1.0.1...v1.1.0) (2023-02-23)
+
+
+### Features
+
+* nav menu should be customizable ([f8627fc](https://github.com/krshkun/kresco/commit/f8627fc17fc2c0bd709f1dbd79daaa5a53d6549e))
+
 ## [1.0.1](https://github.com/krshkun/kresco/compare/v1.0.0...v1.0.1) (2023-02-23)
 
 
