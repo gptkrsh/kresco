@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/krshkun/kresco/compare/v1.1.1...v1.1.2) (2023-02-24)
+
+
+### Bug Fixes
+
+*  next/fonts ([1474b96](https://github.com/krshkun/kresco/commit/1474b9638742b49b9a6dd9a56b82abb513215f27))
+
 ## [1.1.1](https://github.com/krshkun/kresco/compare/v1.1.0...v1.1.1) (2023-02-24)
 
 
