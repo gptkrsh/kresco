@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/krshkun/kresco/compare/v1.1.2...v1.1.3) (2023-02-24)
+
+
+### Bug Fixes
+
+* issue in positioning of submenu ([2371a73](https://github.com/krshkun/kresco/commit/2371a7351ac1d819b8029da8b7bf631618b7e362))
+
 ## [1.1.2](https://github.com/krshkun/kresco/compare/v1.1.1...v1.1.2) (2023-02-24)
 
 
