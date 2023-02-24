@@ -64,7 +64,7 @@ export function Item({
 }) {
   return (
     <NavigationMenu.Item
-      className="py-1 px-2 my-1 rounded hover:bg-slate-3 dark:hover:bg-slateDark-3 list-none"
+      className="relative py-1 px-2 my-1 rounded hover:bg-slate-3 dark:hover:bg-slateDark-3 list-none"
       {...props}
     >
       {children}
@@ -89,7 +89,7 @@ export function Trigger({
       {...props}
     >
       {children}
-      <ChevronDownIcon className="relative w-4 h-4 transition-transform duration-[250] group-data-[state=open]:-rotate-180" />
+      <ChevronDownIcon className="w-4 h-4 transition-transform duration-[250] group-data-[state=open]:-rotate-180" />
     </NavigationMenu.Trigger>
   );
 }
