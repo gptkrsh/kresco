@@ -1,9 +1,9 @@
 {
   "name": "kresco",
   "version": "1.1.1",
-  "main": "lib/index.js",
-  "module": "esm/index.js",
-  "types": "lib/index.d.ts",
+  "main": "lib/src/index.js",
+  "module": "esm/src/index.js",
+  "types": "types/src/index.d.ts",
   "files": [
     "lib",
     "esm",
