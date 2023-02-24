@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "downlevelIteration": true,
+    "rootDirs": ["src"],
+    "strict": true,
+    "moduleResolution": "node",
+    "target": "es5",
+    "module": "commonjs",
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "noUnusedLocals": false,
+    "declaration": true,
+    "declarationMap": true,
+    "composite": true,
+    "lib": ["es7", "dom"]
+  },
+  "include": ["src/**/**.ts", "src/**/**.tsx"],
+  "exclude": ["node_modules", "lib", "esm"]
+}

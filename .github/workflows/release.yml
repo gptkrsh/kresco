@@ -17,6 +17,7 @@ jobs:
           node-version: 18.x
       - name: Install dependencies
         run: yarn install --frozen-lockfile
+      - run: yarn build
       - name: Release package
         run: yarn release
         env:

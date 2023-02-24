@@ -1,21 +1,8 @@
 {
+  "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "alwaysStrict": true,
-    "jsx": "preserve",
-    "module": "esnext",
-    "moduleResolution": "node",
-    "target": "es5",
-    "lib": ["es2015", "dom"],
-    "allowSyntheticDefaultImports": true,
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "strictNullChecks": true
-  },
-  "include": [
-    "./src/**/*"
-  ],
-  "exclude": ["node_modules"]
+    "outDir": "./lib",
+    "declaration": true,
+    "declarationDir": "./types"
+  }
 }

@@ -1,5 +1,6 @@
 "use client";
 
+import * as React from "react";
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
 
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
