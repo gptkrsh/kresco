@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/krshkun/kresco/compare/v1.1.0...v1.1.1) (2023-02-24)
+
+
+### Bug Fixes
+
+* publishing issue ([2b580fa](https://github.com/krshkun/kresco/commit/2b580fad743e291e01b92e058d1cc9813244ea28))
+
 # [1.1.0](https://github.com/krshkun/kresco/compare/v1.0.1...v1.1.0) (2023-02-23)
 
 
