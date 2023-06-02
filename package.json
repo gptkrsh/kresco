@@ -18,7 +18,7 @@
     "build": "tsc -p tsconfig.json && tsc -p tsconfig.esm.json"
   },
   "dependencies": {
-    "@heroicons/react": "^2.0.16",
+    "@heroicons/react": "^2.0.18",
     "@next/font": "13.1.6",
     "@radix-ui/colors": "^0.1.8",
     "@radix-ui/react-navigation-menu": "^1.1.1",
